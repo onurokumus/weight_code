@@ -1,0 +1,36 @@
+.App {
+    text-align: center;
+    height: 100;
+}
+
+.header {
+    background-color: #323233;
+    border-bottom: solid rgb(173, 173, 173) 1px;
+    flex: 0 0 6vh; /* Fixed height of 6vh for the header */
+    text-align: center;
+    line-height: 6vh; /* Vertical alignment of text in the header */
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+}
+
+.body {
+    width: 100%;
+}
+
+.weight-table{
+    padding: 10px; /* Add padding for spacing if needed */
+    text-align: center;
+    margin-bottom: 1vh;
+}
+
+.weight-plot {
+    padding: 10px; /* Add padding for spacing if needed */
+    text-align: center;
+    height: 45vh;
+    background-color: white;
+}
+
+.data-table{
+    color: white;
+}
